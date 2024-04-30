@@ -2,7 +2,7 @@
   * Create a VPC
   * Create a subnet
   * Create a IGW(internet gateway)
-  * Create a ROute Table
+  * Create a Route Table
   * Create a explict route to internet from the RT created previously.
   * Create a security group for port 22, 80, 8080
   * Create a Elastic IP (Static IP)
