@@ -26,7 +26,7 @@ variable "instance_name" {
 variable "ami_id" {
   description = "AMI ID Needed for creating an EC2"
   type    = string
-  default = "dsami-04e5276ebb8451442" # or you can call from terraform.tfvars as well
+  default = "ami-04e5276ebb8451442" # or you can call from terraform.tfvars as well
   validation {
     condition = length(var.ami_id) > 4 && substr(var.ami_id, 0 , 4) == "ami-"
     error_message = "AMI ID should be valid and starts with ami-"
